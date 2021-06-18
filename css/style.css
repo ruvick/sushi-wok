@@ -197,8 +197,7 @@ h4 {
   -ms-flex-align: center;
   align-items: center;
   text-align: center;
-  padding: 3px;
-  width: 110px;
+  padding: 8px 18px;
   height: 35px;
   font-family: 'Lato';
   font-weight: 400;
@@ -1311,7 +1310,8 @@ body.ie .ibg img {
   height: 35px;
   background: #91B508;
   border-radius: 23px;
-  align-items: center; }
+  align-items: center;
+  margin-left: auto; }
 
 .main-page__bascet-link {
   display: -webkit-box;
@@ -1458,3 +1458,13 @@ body.ie .ibg img {
   margin-top: 36px; }
   .prod-card__btn-block p {
     font-size: 20px; }
+
+.main-page__filter {
+  margin-bottom: 43px; }
+
+.main-page__btn {
+  color: #161615;
+  background: #E8E8E8;
+  margin-right: 10px; }
+  .main-page__btn:last-child {
+    margin-right: 0; }

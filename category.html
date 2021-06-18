@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-	<title>Главная</title>
+	<title>Категория</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<meta name="description" content="Новый сайт">
@@ -24,55 +24,119 @@
 
 <body>
 	<div class="wrapper">
-		<!-- @import "header.kit" -->
+		<header id="header" class="header">
+	<div class="header__container container">
+
+		<div class="header__row d-flex">
+
+			<div class="logo-block d-flex">
+				<a href="#" class="header__logo logo-icon"></a>
+
+				<div class="logo-block__contact d-flex">
+					<a href="tel:+79999999999">+7 999 999 99 99</a>
+					<p>Пн- Вс: 8:00 -23:00</p>
+				</div>
+			</div>
+
+			<div class="header__nav-block">
+
+				<div class="header__search search">
+					<input type="text" placeholder="Поиск" class="search__input input">
+					<button type="submit" tabindex="2" id="searchsubmit" class="sub-search" value=""></button>
+				</div>
+				<button class="mob-search"></button>
+
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list sibling-fade d-flex">
+							<li><a href="#" class="menu__link menu__link-promo">Акции</a></li>
+							<li><a href="#" class="menu__link">О нас</a></li>
+							<li><a href="#" class="menu__link">Оплата и доставка</a></li>
+							<li><a href="#" class="menu__link">Контакты</a></li>
+						</ul>
+					</nav>
+					<nav class="mob-menu">
+						<ul class="mob-menu__list">
+							<li><a href="#" class="menu__link">Акции</a></li>
+							<li><a href="#" class="menu__link">О нас</a></li>
+							<li><a href="#" class="menu__link">Оплата и доставка</a></li>
+							<li><a href="#" class="menu__link">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="menu__icon icon-menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+</header>
 
 		<main class="page">
 			<div class="container">
 
-				<!-- @import "sidebar.kit" -->
+				<section id="sidebar" class="sidebar">
+  <div class="sidebar__bg"></div>
+
+  <div class="sidebar__menu-top">
+    <ul>
+      <li class="sidebar__menu-top-icon-1">Суши и роллы</li>
+    </ul>
+    <ul>
+      <li class="sidebar__menu-top-icon-2">Пица</li>
+    </ul>
+    <ul>
+      <li class="sidebar__menu-top-icon-3">Закуски</li>
+    </ul>
+    <ul>
+      <li class="sidebar__menu-top-icon-4">Вок, лапша</li>
+    </ul>
+    <ul>
+      <li class="sidebar__menu-top-icon-5">Бургеры, шаурма</li>
+    </ul>
+  </div>
+
+  <div class="sidebar__menu-center">
+    <ul>
+      <li><a href="#">Акции</a></li>
+      <li><a href="#">Оплата и доставка</a></li>
+      <li><a href="#">Контакты</a></li>
+    </ul>
+  </div>
+
+  <div class="sidebar__social d-flex">
+    <a href="#" class="sidebar__social-icon social__icon-1"></a>
+    <a href="#" class="sidebar__social-icon social__icon-2"></a>
+    <a href="#" class="sidebar__social-icon social__icon-3"></a>
+    <a href="#" class="sidebar__social-icon social__icon-4"></a>
+  </div>
+
+</section>
 
 				<section class="main-page">
 
 					<div class="main-page__flex-block d-flex">
-						<h1>Доставка пиццы и ролов в Ейске</h1>
+						<p id="breadcrumbs"><span><span><a href="#">Главная</a> / <span><a href="http://broczo.ru/ultra/">Все
+											товары</a> / <span class="breadcrumb_last" aria-current="page">Суши и
+											ролы</span></span></span></span></p>
 						<a href="#" class="main-page__bascet d-flex">
 							<p class="main-page__bascet-link">Корзина</p>
 							<span class="main-page__bascet-number">1</span>
 						</a>
 					</div>
 
-					<div class="main-page__promo d-flex">
+					<h1>Суши и ролы</h1>
 
-						<div class="main-page__promo-item main-page__promo-item_1">
-							<h3>
-								При покупке <br>
-								от 800 рублей <br>
-								Вы получаете <br>
-								РОЛЫ В ПОДАРОК
-							</h3>
-						</div>
-
-						<div class="main-page__promo-item main-page__promo-item_2">
-							<h3>
-								У Вас сегодня <br>
-								День Рождения? <br>
-								Мы дарим скидку <br>
-							</h3>
-							<p>15% на все!</p>
-						</div>
-
-						<div class="main-page__promo-item main-page__promo-item_3">
-							<h3>
-								При покупке <br>
-								от 1000 рублей <br>
-								Вы получаете <br>
-								ПИЦУ В ПОДАРОК
-							</h3>
-						</div>
-
+					<div class="main-page__filter d-flex">
+						<button class="main-page__btn btn">Сеты</button>
+						<button class="main-page__btn btn">Горячие ролы</button>
+						<button class="main-page__btn btn">Ролы с овощами</button>
 					</div>
-
-					<h2>Популярные товары</h2>
 
 					<div class="prod-card d-flex">
 
@@ -275,7 +339,13 @@
 
 	</div>
 	<!-- Подключаем Popup здесь -->
-	<!-- @import "js.kit" -->
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
+<!-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script> -->
+<script src="js/vendors.js"></script>
+<script src="js/main.js"></script>
+<script src="js/custom.js"></script>
 </body>
 
 </html>
