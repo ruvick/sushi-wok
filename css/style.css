@@ -1281,9 +1281,13 @@ body.ie .ibg img {
   -webkit-box-flex: 0;
   -ms-flex: 0 1 77.3%;
   flex: 0 1 77.3%;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  padding-bottom: 100px; }
+  padding-bottom: 130px;
+  overflow: auto; }
+
+::-webkit-scrollbar {
+  width: 5px;
+  /* ширина scrollbar'a */
+  background: transparent; }
 
 .main-page__flex-block {
   -webkit-box-pack: justify;
@@ -1380,13 +1384,22 @@ body.ie .ibg img {
     background: #FFD400; }
 
 .main-page__promo-item_1 {
-  background-image: url("../img/promo/02.jpg"); }
+  background-image: url("../img/promo/01.jpg"); }
 
 .main-page__promo-item_2 {
   background-image: url("../img/promo/02.jpg"); }
 
 .main-page__promo-item_3 {
   background-image: url("../img/promo/03.jpg"); }
+
+.main-page__promo-item_4 {
+  background-image: url("../img/promo/04.jpg"); }
+
+.main-page__promo-item_5 {
+  background-image: url("../img/promo/05.jpg"); }
+
+.main-page__promo-item_6 {
+  background-image: url("../img/promo/06.jpg"); }
 
 .main-page h2 {
   margin-bottom: 33px; }
@@ -1468,3 +1481,15 @@ body.ie .ibg img {
   margin-right: 10px; }
   .main-page__btn:last-child {
     margin-right: 0; }
+
+.promo-block {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0; }
+
+.promo-block .main-page__promo-item {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 48.8%;
+  flex: 0 1 48.8%;
+  padding: 73px 10px 83px 40px;
+  margin-bottom: 35px; }
