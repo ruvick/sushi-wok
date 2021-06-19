@@ -98,7 +98,8 @@ body {
 h1 {
 	font-size: 40px;
 	font-weight: 500;
-	line-height: 69 / 40 *100%;}
+	line-height: 69 / 40 *100%;
+	line-height:1;}
 h2 {
 	font-size: 34px;
 	font-weight: 500;
@@ -510,6 +511,87 @@ h4 {
 	padding: 73px 10px 83px 40px;
 	margin-bottom: 35px;
 }
+//====================================================================================================================================================
+
+.main-page__prod-row {
+	max-width: 1050px;
+  width: 100%;
+	justify-content: space-between;
+	margin-bottom: 34px;
+}
+
+.main-page__prod-img {
+	flex: 0 1 623px;
+	height: 417px;
+  overflow: hidden;
+  border-radius: 25px;
+	img {
+		max-width: 100%;
+    height: 100%;
+	}
+}
+.main-page__prod-charect {
+	flex-direction: column;
+	h1 {
+		margin-bottom: 20px;
+	}
+}
+.charect-block {
+	max-width: 242px;
+  width: 100%;
+	padding: 13px 0;
+	border-top: 1px solid #D2D1D1;
+	border-bottom: 1px solid #D2D1D1;
+	margin-bottom: 23px;
+	p {
+		margin-bottom: 10px;
+	}
+	h5 {
+		font-size: 14px;
+		color: #91B508;
+		margin-bottom: 15px;
+	}
+}
+.charect-block__string {
+	max-width: 200px;
+  width: 100%;
+	justify-content: space-between;
+	margin-bottom: 8px;
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+.charect-block__string-l {
+	margin-right: 50px;
+}
+.charect-block__string-r {
+	// text-align: right;
+}
+.charect-block__choose {
+	// justify-content: space-between;
+}
+.charect-block__price {
+	font-size: 30px;
+	margin-right: 45px;
+}
+
+.charect-block__choose .number {
+	max-width: 100px;
+	width: 100%;
+	margin-right: 20px;
+}
+.number input {
+	width: 24px;
+  font-size: 16px;
+	border-radius: 10px;
+	border: 1px solid #BABABA;
+  padding: 0 6px;
+}
+
+.charect-block__btn {
+}
+
+
 //</ОСНОВНОЙ БЛОК>====================================================================================================================================
 
 //<Адаптив>===========================================================================================================================================
