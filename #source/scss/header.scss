@@ -1,5 +1,5 @@
 .header {
-	padding: 20px 0 40px 0;
+	padding: 20px 0 37px 0;
 	position: relative;
 	z-index: 50000;
 }
@@ -22,6 +22,7 @@
 
 .logo-block__contact a {
 	font-size: 26px;
+	font-weight: 900;
 	color: #91B508;
 	margin-bottom: 3px;
 }
@@ -30,20 +31,17 @@
 }
 
 .logo-icon { 
-	max-width: 83px;
+	max-width: 86px;
 	width: 100%;
-	height: 83px;
+	height: 86px;
 	color: #fff;
 	display: flex;
 	flex-direction: column;
-	position: relative;
 	justify-content: center;
 }
 .logo-icon:before { 
 	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
+	float: left;
 	width: 100%;
 	height: 100%;
 	background-position: 0 0;
@@ -57,25 +55,36 @@
   justify-content: space-between;
 	align-items: center;
 	flex: 0 1 1415px;
-	padding: 0 39px 0 25px;
+	padding: 10px 39px 10px 25px;
 	background: #D2D1D1;
 	border-radius: 20px;
 }
 
 .menu {
-	flex: 0 0 490px;
+	min-width: 500px;
+  max-width: 910px;
+
+	&__menu-body {
+		display: flex;
+    justify-content: flex-end;
+	}
 
 	&__list {
-		justify-content: space-between;
 		flex-wrap: wrap;
+		li {
+			margin: 8px 10px 8px 0;
+			&:last-child {
+				margin-right: 0;
+			}
+		}
 	}
 
 	a {
 		font-family: 'Lato';
 		display: block;
 		font-size: 16px;
-		padding: 12px 20px;
-		font-weight: 500;
+		padding: 9.5px 21px;
+		font-weight: 400;
 		background: #fff;
     border-radius: 23px;
 	}
@@ -104,8 +113,8 @@
 }
 
 .header__search {
-	max-width: 366px;
-	height: 37px;
+	max-width: 356px;
+	height: 35px;
 }
 
 .icon-menu {
