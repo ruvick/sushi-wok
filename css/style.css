@@ -1595,3 +1595,9 @@ body.ie .ibg img {
   border-radius: 10px;
   border: 1px solid #BABABA;
   padding: 0 6px; }
+
+.main-page h1 {
+  margin-bottom: 20px; }
+
+.category h1 {
+  margin-bottom: 22px; }
