@@ -65,7 +65,7 @@
 //</Иконочные шрифты>==========================================================================================
 
 //<Шрифт по умолчанию>==========================================================================================
-$fontfamily: "";
+$fontfamily: "Lato";
 //</Шрифт по умолчанию>==========================================================================================
 
 //</ШРИФТЫ>=======================================================================================================
@@ -197,6 +197,7 @@ h4 {
 	margin-bottom: 71px;
 	ul {
 		margin-bottom: 11px;
+		cursor: pointer;
 		&:last-child {
 			margin-bottom: 0;
 		}
@@ -216,7 +217,7 @@ h4 {
 			float: left;
 			background-position: center;
 			background-repeat: no-repeat;
-			margin-right: 38px;
+			margin-right: 35px;
 		}
 		&:after {
 			content: '';
@@ -265,18 +266,18 @@ h4 {
 		flex-direction: column;
 		li {
 			margin-bottom: 23px;
-			&::before {
-				content: '';
-				float: left;
-				width: 17px;
-				height: 17px;
-				background: #91B508;
-				border-radius: 50%;
-				margin-right: 47px;
-			}
 		}
 		a {
 			font-size: 20px;
+			padding-left: 47px;
+			&::before {
+				content: '';
+				float: left;
+				width: 19px;
+				height: 18px;
+				background: #91B508;
+				border-radius: 50%;
+			}
 		}
 	}
 
