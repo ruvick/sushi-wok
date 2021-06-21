@@ -142,7 +142,7 @@ h2 {
 
 h3 {
   font-size: 23px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 130.43478%; }
 
 h4 {
@@ -1521,10 +1521,17 @@ body.ie .ibg img {
 
 .promo-block .main-page__promo-item {
   -webkit-box-flex: 0;
-  -ms-flex: 0 1 48.8%;
-  flex: 0 1 48.8%;
+  -ms-flex: 0 1 49%;
+  flex: 0 1 49%;
+  min-height: 296px;
+  overflow: hidden;
   padding: 73px 10px 83px 40px;
   margin-bottom: 35px; }
+
+.promo-block .main-page__promo-item p {
+  font-size: 28px;
+  width: 183px;
+  margin-bottom: 17px; }
 
 .main-page__prod-row {
   max-width: 1050px;
