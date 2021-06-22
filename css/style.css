@@ -1322,7 +1322,8 @@ body.ie .ibg img {
   -ms-flex: 0 1 77.3%;
   flex: 0 1 77.3%;
   padding-bottom: 130px;
-  overflow: auto; }
+  overflow-y: auto;
+  overflow-x: hidden; }
 
 ::-webkit-scrollbar {
   width: 5px;
