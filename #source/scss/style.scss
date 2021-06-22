@@ -598,20 +598,23 @@ h4 {
 	max-width: 1050px;
   width: 100%;
 	justify-content: space-between;
-	margin-bottom: 34px;
+	margin-bottom: 65px;
 }
 
 .main-page__prod-img {
-	flex: 0 1 623px;
+	// flex: 0 1 623px;
+	max-width: 623px;
+	width: 100%;
 	height: 417px;
   overflow: hidden;
   border-radius: 25px;
 	box-shadow: 0px 10px 13px -11px #000000;
-	img {
-		max-width: 100%;
-    height: 100%;
-	}
+	// img {
+	// 	max-width: 100%;
+  //   height: 100%;
+	// }
 }
+
 .main-page__prod-charect {
 	flex-direction: column;
 	h1 {
@@ -691,7 +694,48 @@ h4 {
 .category h1 {
 	margin-bottom: 22px;
 }
+//====================================================================================================================================================
 
+.slider__item {
+	// // flex: 0 1 623px;
+	// // max-width: 623px;
+	// width: 100%;
+	// // height: 417px;
+  // overflow: hidden;
+  // border-radius: 25px;
+	img {
+		max-width: 100%;
+		height: 100%;
+		// object-fit: cover;
+	}
+}
+
+/* Точки (булиты) */
+.slick-dots{
+	display: flex;
+	justify-content: space-between;
+	width: 130px;
+	position: absolute;
+	left: 35%;
+	bottom: -8%;
+}
+.slick-dots li{
+
+}
+
+/* Активная точка */
+.slick-dots li.slick-active{
+	
+}
+
+/* Элемент точки */
+.slick-dots li button{
+	font-size: 0;
+	width: 15px;
+	height: 15px;
+	background: green;
+	border-radius: 50%;
+}
 //</ОСНОВНОЙ БЛОК>====================================================================================================================================
 
 //<Адаптив>===========================================================================================================================================

@@ -49,17 +49,17 @@ if (document.body.clientWidth > 1024) {
 }
 
 
-// // Slider на главной
-// $('.info-sl__slider').slick({
-// 	arrows: false,
-// 	dots: true,
-// 	infinite: true,
-// 	speed: 1000,
-// 	slidesToShow: 1,
-// 	autoplay: true,
-// 	autoplaySpeed: 1800,
-// 	adaptiveHeight: true
-// });
+// // Slider 
+$('.slider').slick({
+	arrows: false,
+	dots: true,
+	infinite: true,
+	speed: 1000,
+	slidesToShow: 1,
+	autoplay: true,
+	autoplaySpeed: 1800,
+	adaptiveHeight: true
+});
 
 
 // // Slider вертикальный
