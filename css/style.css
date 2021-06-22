@@ -1139,6 +1139,13 @@ body.ie .ibg img {
   justify-content: space-between; }
 
 .sidebar {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 21%;
+  flex: 0 0 21%;
+  position: relative;
+  padding: 18px 18px 56px 0; }
+
+.s-wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1146,12 +1153,10 @@ body.ie .ibg img {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 21%;
-  flex: 0 0 21%;
-  max-height: 938px;
-  position: relative;
-  padding: 18px 18px 56px 0; }
+  height: 830px;
+  overflow: auto;
+  height: 100%;
+  padding-bottom: 200px; }
 
 .sidebar__menu-top {
   margin-bottom: 71px; }

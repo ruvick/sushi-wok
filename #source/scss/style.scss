@@ -184,17 +184,26 @@ h4 {
 }
 
 .sidebar {
-	display: flex;
-  flex-direction: column;
+	// display: flex;
+  // flex-direction: column;
 	flex: 0 0 21%;
 	// height: 100vh;
-	max-height: 938px;
+	// max-height: 938px;
 	position: relative;
 	padding: 18px 18px 56px 0;
+}
+.s-wrap {
+	display: flex;
+  flex-direction: column;
+	height: 830px;
+	overflow: auto;
+	height: 100%;
+	padding-bottom: 200px;
 }
 
 .sidebar__menu-top {
 	margin-bottom: 71px;}
+	
 	.sidebar__menu-open {
 		margin-bottom: 11px;
 		cursor: pointer;
