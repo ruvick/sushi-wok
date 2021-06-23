@@ -280,7 +280,7 @@
 	.sidebar {
     flex: 0 1 100%;
     margin: 0;
-    padding: 15px 0;
+		padding: 20px 0 15px 0;
 	}
 	.sidebar__bg {
     top: 0;
@@ -316,6 +316,9 @@
     padding-left: 0;
     justify-content: center;
 	}
+	.main-page__bascet {
+    display: none;
+	}
 }
 
 @media (max-width: 700px) {
@@ -330,6 +333,9 @@
 @media (max-width: 540px) {
 	.logo-block {
     margin-right: 15px;
+	}
+	.main-page__promo-item {
+    flex: 0 1 100%;
 	}
 }
 
@@ -351,5 +357,17 @@
 	}
 	.search__input {
     border-radius: 0 !important;
+	}
+	.prod-card__body {
+    flex: 0 1 100%;
+	}
+}
+
+@media (max-width: 400px) {
+	.sidebar__menu-center ul li {
+		margin-bottom: 6px;
+	}
+	.sidebar__menu-center ul li:last-child {
+		margin-bottom: 0;
 	}
 }
