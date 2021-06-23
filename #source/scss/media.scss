@@ -399,6 +399,37 @@
 	.bascket-icon {
 		display: flex;
 	}
+	.mob-menu__list {
+		margin-bottom: 15px;
+	}
+	.mob-menu.active .sidebar__menu-top {
+    display: block;
+		padding-left: 10px;
+	}
+	.mob-menu.active .sidebar__menu-open {
+		min-height: 0;
+    padding: 0;
+    background: none;
+		margin-bottom: 15px;
+	}
+	.mob-menu.active .sidebar__menu-open li {
+    margin-left: 0;
+    font-size: 23px;
+    color: #fff;
+	}
+	.mob-menu.active .sidebar__submenu li a {
+		font-size: 16px;
+		padding: 5px 0;
+	}
+	.mob-menu.active .sidebar__submenu.active {
+    margin: 15px 0;
+	}
+	.mob-menu.active .sidebar__menu-open li:after {
+    right: 20%;
+	}
+	.mob-menu.active .sidebar__menu-open li:before {
+		display: none;
+	}
 }
 
 @media (max-width: 700px) {
