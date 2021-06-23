@@ -1058,7 +1058,8 @@ body.ie .ibg img {
   display: inline-block;
   font-size: 23px;
   color: #fff;
-  padding-bottom: 13px; }
+  padding-bottom: 13px;
+  background: none; }
 
 .mob-callback__phone {
   display: none;
