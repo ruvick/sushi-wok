@@ -168,6 +168,9 @@
 	.sidebar__bg {
     border-radius: 0 35px 0 0;
 	}
+	.category h1 {
+    margin-bottom: 22px !important;
+	}
 }
 
 @media (max-width: 960px) {
@@ -360,6 +363,17 @@
 	}
 	.prod-card__body {
     flex: 0 1 100%;
+	}
+}
+
+@media (max-width: 414px) {
+	.main-page__filter {
+		flex-wrap: wrap;
+		margin-bottom: 15px;
+	}
+	.main-page__btn {
+    width: 100%;
+		margin: 0 0 5px 0;
 	}
 }
 
