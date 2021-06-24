@@ -2199,7 +2199,10 @@ body.ie .ibg img {
     max-width: 100%;
     -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
-    margin: 0; }
+    margin: 0;
+    -webkit-transition: top 1s;
+    -o-transition: top 1s;
+    transition: top 1s; }
   .search__input {
     border-radius: 0 !important; }
   .prod-card__body {
